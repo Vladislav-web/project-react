@@ -1,5 +1,5 @@
-"use sctrict";
-let num = 50;
+// "use sctrict";
+// let num = 50;
 
 // while (num <= 55) {
     //     console.log(num);
@@ -14,11 +14,19 @@ let num = 50;
 
 // while (num < 55);
 
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        // break;
-        continue;
-    }
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         // break;
+//         continue;
+//     }
 
-    console.log(i);
+//     console.log(i);
+// }
+
+function calculateAge(year) {
+    return 2020 - year ;
 }
+
+console.log(calculateAge(1966));
+console.log(calculateAge(1950));
+
