@@ -69,7 +69,7 @@ const personalMovieDB = {
     writeYourGenres: function() {
         for (let i = 1; i < 2; i++) {
         //     let genre = prompt(`Ваш любимый жанр под номером ${i}`);
-
+            
         //     if (genre == '' || genre === null) {
         //         console.log('Вы ввели некорректноые данные или не ввели их вовсе ');
         //         i--; 

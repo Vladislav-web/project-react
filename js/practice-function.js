@@ -51,7 +51,7 @@ function rememverMyFilms() {
 
 }
 
-// rememverMyFilms();
+rememverMyFilms();
 
 
 function detectPersonalLevel() {
@@ -66,7 +66,7 @@ function detectPersonalLevel() {
   }
 }
 
-// detectPersonalLevel();
+detectPersonalLevel();
 
 function showMyDB (hidden) {
     if (!hidden) {
